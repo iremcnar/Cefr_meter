@@ -37,7 +37,7 @@ tk.Label(root, text="İngilizce bir cümle yazın:").pack(pady=5)
 entry = tk.Entry(root, width=80)
 entry.pack(padx=10, pady=5)
 
-tk.Button(root, text="Tahmin Et", command=on_predict).pack(pady=10)
+tk.Button(root, text="Seviyeniz:", command=on_predict).pack(pady=10)
 
 result_var = tk.StringVar()
 result_label = tk.Label(root, textvariable=result_var, justify="left")
